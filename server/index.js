@@ -31,7 +31,7 @@ function main() {
         readProduct: readProduct,
         createProduct: createProduct,
         updateProduct: updateProduct,
-        deleteProduct,deleteProduct,
+        deleteProduct: deleteProduct,
     });
 
     server.bind('localhost:50051', grpc.ServerCredentials.createInsecure());
